@@ -1,0 +1,3988 @@
+body {
+	font: 0.875rem / normal "Open Sans", sans-serif;
+}
+.btn-load-more {
+	text-align: center;
+	margin-top: 2rem;
+}
+.btn-load-more .btn {
+	font: 1.125rem/1.2 "Poppins", sans-serif;
+	border-radius: 0;
+	padding: 0.75rem 1.5rem;
+}
+.btn-pink {
+	background: #f74949;
+	color: #ffffff;
+}
+.btn-pink:hover {
+	background: #d13d3d;
+	color: #ffffff;
+}
+.btn-black {
+	background: #363636;
+	color: #ffffff;
+}
+.btn-black:hover {
+	background: #2c2c2c;
+	color: #ffffff;
+}
+.btn-gradient {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#af2842+0,f74949+100 */
+	background: rgb(175, 40, 66); /* Old browsers */
+	background: -moz-linear-gradient(
+		45deg,
+		rgba(175, 40, 66, 1) 0%,
+		rgba(247, 73, 73, 1) 100%
+	); /* FF3.6-15 */
+	background: -webkit-linear-gradient(
+		45deg,
+		rgba(175, 40, 66, 1) 0%,
+		rgba(247, 73, 73, 1) 100%
+	); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(
+		45deg,
+		rgba(175, 40, 66, 1) 0%,
+		rgba(247, 73, 73, 1) 100%
+	); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#af2842', endColorstr='#f74949',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	color: #ffffff;
+}
+.btn-gradient:hover {
+	color: #ffffff;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f74949+0,af2842+100 */
+	background: rgb(247, 73, 73); /* Old browsers */
+	background: -moz-linear-gradient(
+		45deg,
+		rgba(247, 73, 73, 1) 0%,
+		rgba(175, 40, 66, 1) 100%
+	); /* FF3.6-15 */
+	background: -webkit-linear-gradient(
+		45deg,
+		rgba(247, 73, 73, 1) 0%,
+		rgba(175, 40, 66, 1) 100%
+	); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(
+		45deg,
+		rgba(247, 73, 73, 1) 0%,
+		rgba(175, 40, 66, 1) 100%
+	); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f74949', endColorstr='#af2842',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.text-pink {
+	color: #f74949 !important;
+}
+
+/* #region header style */
+.vh-head {
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	z-index: 9;
+	transition: background 0.3s ease-in-out;
+}
+.vh-head.scroll {
+	background: rgba(0, 0, 0, 1);
+}
+.vh-head.scroll .navbar-brand img {
+	height: 50px;
+}
+.vh-head .navbar {
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+}
+.vh-head .navbar-expand-lg {
+	justify-content: space-between;
+}
+.vh-head .navbar-collapse {
+	flex-grow: 0;
+}
+.vh-head .navbar-brand {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+.vh-head .navbar-brand img {
+	display: block;
+	height: 68px;
+	transition: all 0.3s ease-in-out;
+}
+.vh-head .navbar-nav .nav-item {
+	margin-right: 0rem;
+}
+.vh-head .navbar-nav .nav-item:last-child {
+	margin-right: 0;
+}
+.vh-head .navbar-nav .nav-link {
+	font-weight: 500;
+	color: #fff;
+	transition: all 0.3s ease-in-out;
+	text-transform: uppercase;
+	padding: 0.25rem 1rem;
+}
+.vh-head .navbar-nav .nav-link:hover,
+.vh-head .navbar-nav .active .nav-link {
+	color: #ffffff;
+	background: #f74949;
+}
+.dropdown-menu {
+	border-radius: 0;
+	margin: 0;
+	padding: 0.25rem 0;
+}
+.dropdown-item {
+    padding: 0.25rem 1rem;
+    font-size: 0.875rem;
+}
+.dropdown-item:hover {
+    background: #f74949;
+    color: #fff;
+}
+/* #endRegion header style */
+
+/* #region carousel style */
+.carousel-item img {
+	display: block;
+	width: 100%;
+}
+.carousel-caption {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 7;
+	padding-top: 0;
+	padding-bottom: 0;
+	color: #fff;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cc-in h2 {
+	font: 800 4.0625rem/1.25em "Poppins", sans-serif;
+	margin: 0 0 2rem 0;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.cc-in .btn {
+	font: 600 1rem / normal "Open Sans", sans-serif;
+	text-transform: uppercase;
+	padding: 0.4rem 1.875rem;
+	border-radius: 0;
+}
+.kmc-nav {
+	position: absolute;
+	bottom: 120px;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 8;
+}
+.carousel-control-next,
+.carousel-control-prev {
+	position: static;
+	width: auto;
+	opacity: 1;
+	margin: 0 1rem;
+}
+/* #endRegion carousel style */
+
+/* #region Booking Form */
+.km-carousel {
+	position: relative;
+}
+.km-booking-form {
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 1rem 0;
+	z-index: 8;
+}
+.kmbf-in .form-row {
+	flex-wrap: nowrap;
+}
+.kmbf-in .form-group {
+	margin-bottom: 0;
+}
+.kmbf-in .form-control {
+	background: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 0.875rem;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+.kmbf-in .form-control option {
+	color: #000;
+}
+.kmbf-in [type="number"].form-control {
+	max-width: 90px;
+}
+.kmbf-in .btn {
+	display: flex;
+	align-items: center;
+	font: 600 1rem/1.375 "Montserrat", sans-serif;
+}
+.kmbf-in .btn .material-icons {
+	font-size: 1.375rem;
+	margin-right: 0.25rem;
+}
+.kmbf-in .form-group label {
+	font-size: 0.75rem;
+	margin-bottom: 0.25rem;
+}
+.kmbf-msg {
+	font-size: 0.75rem;
+	margin-top: 0.5rem;
+}
+.kmbf-msg a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+/* #endRegion Booking Form */
+
+/* #region NewsTicker */
+.km-newsticker {
+	background: #f74949;
+	color: #fff;
+	font: 400 0.875rem "Poppins", sans-serif;
+	padding: 1rem;
+}
+/* #endRegion NewsTicker */
+
+/* #region Column section */
+.khw-row {
+	display: flex;
+}
+.khw-left,
+.khw-right {
+	flex: 0 0 50%;
+	-ms-flex: 0 0 50%;
+	max-width: 50%;
+	display: flex;
+	align-items: center;
+	padding: 4rem 2.25rem;
+	background: #000 no-repeat center;
+	color: #ffffff;
+}
+.khw-left {
+	background-size: cover;
+	justify-content: flex-end;
+}
+.khw-right {
+	background-size: cover;
+}
+.khw-right .khw-in {
+	width: calc((1110px / 2) - 2.5rem);
+}
+.khw-left .khw-in {
+	width: calc((1160px / 2) - 2.5rem);
+}
+.khw-txt h1 {
+	font: 700 2.75rem/1.3em "Poppins", sans-serif;
+	text-transform: uppercase;
+	margin: 0 0 3rem 0;
+}
+.khw-txt p {
+	margin: 0;
+	font-size: 1.375rem;
+	padding-left: 2rem;
+}
+.khw-left .border-box {
+	margin-left: -50px;
+	padding-left: 3.125rem;
+}
+.border-box {
+	display: flex;
+	align-items: center;
+	min-height: 600px;
+	position: relative;
+}
+.border-box.b-left {
+	border-left: 20px solid #ffffff;
+}
+.border-box.b-right {
+	border-right: 20px solid #ffffff;
+}
+.border-box.b-left::before,
+.border-box.b-right::before {
+	content: "";
+	display: block;
+	top: 0;
+	position: absolute;
+	border-top: 20px solid #ffffff;
+}
+.border-box.b-left::before {
+	left: 0;
+	width: 44%;
+}
+.border-box.b-right::before {
+	right: 0;
+	width: 44%;
+}
+.border-box.b-left::after,
+.border-box.b-right::after {
+	content: "";
+	display: block;
+	bottom: 0;
+	position: absolute;
+	border-right: 20px solid #ffffff;
+}
+.border-box.b-left::after {
+	right: 0;
+	height: 16.67%;
+}
+.border-box.b-right::after {
+	left: 0;
+	height: 16.67%;
+}
+.border-box.b-bottom {
+	border-bottom: 20px solid #ffffff;
+}
+.border-box h3 {
+	font: 700 7rem/1.1 "Poppins", sans-serif;
+	text-transform: uppercase;
+	margin: 0;
+}
+/* #endRegion Column section */
+
+/* #region Popular Destination */
+.kmh-block {
+	padding: 3rem 0;
+}
+.kmhb-head {
+	margin-bottom: 3rem;
+}
+.kmhb-head h2 {
+	margin: 0;
+	font: 700 3rem "Poppins", sans-serif;
+	padding-bottom: 0.5rem;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+}
+.kmhb-head h2::after {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: calc(50% - 80px);
+	height: 6px;
+	background: #f74949;
+	width: 160px;
+}
+.g4-12 .khpdg-bx {
+	flex: 0 0 33.33%;
+	-ms-flex: 0 0 33.33%;
+	max-width: 33.33%;
+}
+.kh-popular .khpdgb-in {
+	padding-top: 75%;
+}
+
+.kh-popular {
+	background: url(../images/popular_background.jpg) no-repeat center bottom -80px;
+	background-size: cover;
+}
+.kh-popular .khw-row {
+	align-items: flex-end;
+}
+.kh-popular .khw-left,
+.kh-popular .khw-right {
+	background-color: transparent;
+	padding: 2.25rem 0;
+}
+.kh-popular .khw-left {
+	padding-right: 1px;
+}
+.kh-popular .khw-right {
+	padding-left: 0;
+}
+.kh-popular .khw-left .khw-in,
+.kh-popular .khw-right .khw-in {
+	width: calc(1110px / 2);
+}
+.kh-popular .border-box.b-right,
+.kh-popular .border-box.b-right::before,
+.kh-popular .border-box.b-right::after,
+.kh-popular .border-box.b-bottom {
+	border-color: #000;
+}
+.kh-popular .border-box {
+	color: #000;
+	padding-left: 1.25rem;
+}
+.kh-popular .border-box h3 {
+	font-size: 4rem;
+	line-height: 1.5;
+}
+.khpd-grid {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -0.375rem;
+}
+.khpdg-bx {
+	flex: 0 0 50%;
+	-ms-flex: 0 0 50%;
+	max-width: 50%;
+	padding: 0.375rem;
+}
+
+.khpdgb-in {
+	position: relative;
+	padding-top: 100%;
+	box-shadow: -4px -3px 8px rgba(0, 0, 0, 0.2);
+	background: #001 no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+.kh-popular .khpdg-bx:nth-child(2n) .khpdgb-in {
+	box-shadow: 6px -4px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* .khpgdb-overlay {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    padding: 1rem;
+    border: 2px solid #fff;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: rgba(0,0,0,0.5);
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	transform:scale(0.5);
+	transition:all 0.3s ease-in-out;
+	opacity: 0;
+} */
+.khpgdb-overlay {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	/* background: rgba(0,0,0,0.5); */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+26&0+0,0.4+32,0.75+100 */
+	background: -moz-linear-gradient(
+		top,
+		rgba(0, 0, 0, 0) 0%,
+		rgba(0, 0, 0, 0.33) 26%,
+		rgba(0, 0, 0, 0.4) 32%,
+		rgba(0, 0, 0, 0.75) 100%
+	); /* FF3.6-15 */
+	background: -webkit-linear-gradient(
+		top,
+		rgba(0, 0, 0, 0) 0%,
+		rgba(0, 0, 0, 0.33) 26%,
+		rgba(0, 0, 0, 0.4) 32%,
+		rgba(0, 0, 0, 0.75) 100%
+	); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 0) 0%,
+		rgba(0, 0, 0, 0.33) 26%,
+		rgba(0, 0, 0, 0.4) 32%,
+		rgba(0, 0, 0, 0.75) 100%
+	); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#bf000000',GradientType=0 ); /* IE6-9 */
+	transform: translateY(calc(100% - 60px));
+	transition: all 0.3s ease-in-out;
+	color: #fff;
+}
+.khpdg-bx:hover .khpgdb-overlay {
+	opacity: 1;
+	transform: translateY(0);
+}
+.khpgdb-overlay h5 {
+	font: 600 1.5rem / normal "Poppins", sans-serif;
+	text-transform: uppercase;
+	margin: 0 0 6px 0;
+	text-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+.khpgdb-overlay p {
+	font-size: 0.75rem;
+	margin-bottom: 1rem;
+}
+.khpgdb-overlay .btn {
+	border-radius: 0;
+	font-size: 0.75rem;
+	text-transform: uppercase;
+	padding: 0.25rem 0.75rem;
+}
+/* #endRegion Popular Destination */
+
+/* #region Special Package */
+.km-spackage {
+	margin-top: 1.25rem;
+	margin-bottom: 4rem;
+}
+.kmsp-head {
+	margin-bottom: 3rem;
+}
+.kmsp-head h2 {
+	text-transform: uppercase;
+	font: 500 1.875rem / normal "Montserrat", sans-serif;
+	color: #222222;
+	position: relative;
+	padding: 0 0 0.5rem 0;
+	display: inline-block;
+	margin: 0;
+}
+.kmsp-head h2::after {
+	content: "";
+	width: 50%;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 1px;
+	background: rgba(188, 188, 188, 0.64);
+}
+.kmsp-content .khpd-grid {
+	margin: -0.25rem;
+}
+.kmsp-content .khpdg-bx {
+	flex: 0 0 25%;
+	-ms-flex: 0 0 25%;
+	max-width: 25%;
+	padding: 0.25rem;
+	box-shadow: none;
+}
+.stpi-top {
+	font: 700 1.375rem/1.2 "Poppins", sans-serif;
+	text-transform: uppercase;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	margin-bottom: 1rem;
+}
+.stp-info {
+	flex: 0 0 100%;
+	max-width: 100%;
+	height: 100%;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.stpi-bottom h5 {
+	margin: 0 0 0.5rem 0;
+	font: 600 2rem/1.2 "Poppins", sans-serif;
+}
+.stpi-bottom p {
+	margin: 0 0 0.5rem 0;
+	font: 500 1.25rem/1.2 "Poppins", sans-serif;
+}
+/* #endRegion Special Package */
+
+/* #region Best Hotels */
+.kh-bHotels {
+	background: url("../images/hotels_bg.jpg") no-repeat center bottom;
+	background-size: cover;
+	padding: 0 0 7rem 0;
+	margin-bottom: -2rem;
+}
+.kh-bHotels .khw-left .khw-in,
+.kh-bHotels .khw-right .khw-in {
+	width: calc(1110px / 2);
+}
+.kh-bHotels .khw-left,
+.kh-bHotels .khw-right {
+	background-color: transparent;
+	padding: 2.25rem 0;
+}
+.kh-bHotels .khw-row {
+	align-items: flex-end;
+}
+.kh-bHotels .khw-left {
+	padding-right: 1px;
+	color: #000;
+}
+.kh-bHotels .border-box.b-left,
+.kh-bHotels .border-box.b-left::before,
+.kh-bHotels .border-box.b-left::after,
+.kh-bHotels .border-box.b-bottom {
+	border-color: #000;
+}
+.kh-bHotels .border-box {
+	padding-left: 5.8125rem;
+	padding-right: 5.8125rem;
+	margin-left: 0;
+}
+.kh-bHotels .border-box h3 {
+	font-size: 4.375rem;
+	line-height: 1.75;
+}
+.kmh-video-frame {
+	/* padding-top: 100%; */
+	position: relative;
+	height: 540px;
+	object-fit: contain;
+	background: #000;
+}
+/* .kmh-video-frame .owl-video-wrapper {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+} */
+.kmh-video-frame video{
+	width:100%;
+	height:100%;
+}
+.kh-bHotels .khpdg-bx .khpdgb-in {
+	padding-top: 65.15%;
+}
+.kh-bHotels .khpdg-bx .khpgdb-overlay {
+	padding: 0.5rem;
+	transform: translateY(calc(100% - 36px));
+}
+.kh-bHotels .khpdg-bx:hover .khpgdb-overlay {
+	opacity: 1;
+	transform: translateY(0);
+}
+.kh-bHotels .khpgdb-overlay h5 {
+	font-size: 1.125rem;
+	line-height: 1.2;
+}
+.kh-bHotels .khpgdb-overlay p {
+	margin-bottom: 0.50rem;
+}
+/* #endRegion Best Hotels */
+
+/* #region Widget Style */
+.widget {
+	background: #000;
+	height: 100%;
+	max-height: 100%;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+.widget.weather-widget {
+	height: 475px;
+	position: relative;
+	background: url("../images/weather.jpg") no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+.w-city-bx {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	z-index: 99;
+}
+.w-city-bx .form-control {
+	border-radius: 0.25rem;
+	-webkit-appearance: none;
+	background: transparent url("../images/dropdown_select.png") no-repeat right
+		5px center;
+	border: 1px solid #fff;
+	font: 600 1rem "Poppins", sans-serif;
+	width: auto;
+	padding: 0.125rem 0.5rem;
+	z-index: 99;
+	color: #fff;
+	height: auto;
+}
+.w-city-bx .form-control option{
+	color:#000000;
+}
+.widget.tender-widget {
+	background: #c94949;
+}
+.widget.faq-widget {
+	background: #093d78;
+	height: calc(50% - 10px);
+	margin-bottom: 20px;
+}
+.faq-widget .card {
+	font-size: 0.75rem;
+	border-color: rgba(255,255,255,0.2);
+	margin-bottom: 0.5rem;
+}
+.faq-widget .card:first-of-type, .faq-widget .card:not(:first-of-type):not(:last-of-type), .faq-widget .card:last-of-type {
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.faq-widget .card-header .btn {
+	font-size: 0.75rem;
+}
+.faq-widget .card-body {
+	padding: 0.75rem;
+}
+.faq-widget .card-header {
+	padding: 0;
+	background: rgba(255,255,255,0.2);
+}
+.widget.ebook-widget {
+	height: calc(50% - 10px);
+	background: #467531;
+}
+.ww-in {
+	padding: 1.5rem;
+}
+.khwi-head {
+	padding: 1rem 1rem 0 1rem;
+}
+.khwi-head h4 {
+	font: 700 1.25rem / normal "Montserrat", sans-serif;
+	margin: 0;
+}
+.khwi-content {
+	padding: 1rem;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+}
+.khwic-in {
+	flex-grow: 1;
+	position: relative;
+}
+.khwic-ftr {
+	text-align: right;
+}
+.khwic-ftr a {
+	color: #fff;
+}
+.khwicin-scroll {
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 0 0 1rem 0;
+}
+.widget-list {
+	padding: 0 0 0 1.5rem;
+}
+.widget-list li {
+	margin-bottom: 0.5rem;
+}
+.widget-list li a {
+	color: #ffffff;
+	font: 0.75rem/1.3 "Montserrat", sans-serif;
+}
+/* #endRegion Widget Style */
+
+/* #region Gallery Section */
+.khgi-img {
+	margin: 0 0.1875rem;
+}
+.km-gallery {
+	margin-top: 2.75rem;
+	margin-bottom: 1.125rem;
+}
+.km-gallery .kmsp-head {
+	margin-bottom: 0.5rem;
+}
+.kmg-nav {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 0.25rem;
+}
+.kmg-nav .btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #ec1f27;
+	color: #ffffff;
+	border-radius: 0;
+	padding: 0;
+	width: 2.625rem;
+	height: 2.625rem;
+	margin-right: 0.25rem;
+}
+.kmg-nav .btn .material-icons {
+	font-size: 2.5rem;
+}
+/* #endRegion Gallery Section */
+
+/* #region footer style */
+.mdf-in {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.mdf-bx {
+	flex: 0 0 33.33%;
+	-ms-flex: 0 0 33.33%;
+	max-width: 33.33%;
+	padding: 0 2rem;
+}
+.mdfb-head {
+	padding: 0.75rem 0;
+	border-bottom: 1px solid #393939;
+	margin-bottom: 1rem;
+	position: relative;
+}
+.md-footer {
+	background: #1a1a1a;
+	color: #fff;
+	padding: 2.5rem 0;
+}
+.mdfb-head::before {
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	width: 45%;
+	height: 2px;
+	background: #ec1f27;
+	content: "";
+	display: block;
+}
+.mdfb-head > h3 {
+	margin: 0;
+	font-size: 1rem;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.mdfb-link {
+	display: flex;
+	align-items: flex-start;
+}
+.mdfb-link ul {
+	padding: 0;
+	margin: 0;
+	flex: 0 0 100%;
+	-ms-flex: 0 0 100%;
+	max-width: 100%;
+}
+.mdfb-link ul li {
+	list-style: none;
+	display: block;
+	padding-left: 1.5rem;
+	position: relative;
+}
+.mdfb-link ul li::before {
+	content: ">>";
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #bebebe;
+	display: block;
+}
+.mdfb-link ul li + li {
+	margin-top: 0.5rem;
+}
+.mdfb-link ul a {
+	color: #bebebe;
+	font-size: 0.75rem;
+}
+.mdfb-contact h4 {
+	margin: 0 0 1rem 0;
+	font-size: 1.125rem;
+}
+.mdfb-contact h4 span {
+	text-transform: uppercase;
+}
+.mdfb-contact address {
+	color: #acaba2;
+	font-size: 0.875rem;
+	margin: 0 0 1rem 0;
+}
+.mdfb-contact p {
+	color: #acaba2;
+	font-size: 0.875rem;
+	position: relative;
+	padding-left: 1rem;
+	margin: 0;
+}
+.mdfb-contact p::before {
+	content: "chevron_right";
+	font: 1rem / normal "Material Icons", sans-serif;
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #d9ca18;
+	display: block;
+}
+.mdfb-contact p span {
+	color: #ffffff;
+}
+.acf-bottom .mdt-btn {
+	position: fixed;
+	right: 1rem;
+	bottom: 1rem;z-index:98;
+}
+.btn-top {
+	font-size: 0.75rem;
+	color: #fff;
+	background: #ec1f27;
+	position: relative;
+	padding: 0;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 8px 16px rgba(0,0,0,0.1), 0 4px 8px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.1);
+}
+.btn-top .material-icons {
+	font-size: 2rem;
+}
+.acam-in {
+	height: 500px;
+	background: #f0f0f0;
+}
+.mdfb-about {
+	font-size: 0.75rem;
+	color: #bebebe;
+}
+.gMap {
+	height: 120px;
+	background: #ccc;
+	margin-bottom: 1rem;
+}
+.mdfbc-list li address {
+	margin: 0;
+}
+.mdfb-about p {
+	margin: 0 0 1rem 0;
+}
+.mdf-bottom {
+	display: flex;
+	margin-top: 3rem;
+	justify-content: space-between;
+}
+.mdfb-left {
+	flex: 0 0 66.66%;
+	-ms-flex: 0 0 66%;
+	max-width: 66.66%;
+}
+.mdfb-right {
+	flex: 0 0 33.33%;
+	-ms-flex: 0 0 33.33%;
+	max-width: 33.33%;
+}
+.mdf-bottom .mdf-bx {
+	flex: 0 0 100%;
+	-ms-flex: 0 0 100%;
+	max-width: 100%;
+}
+.mdfbg-grid {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -0.25rem;
+}
+.mdfbg-img {
+	padding: 0.25rem;
+	flex: 0 0 78px;
+	max-width: 78px;
+	-ms-flex: 0 0 78px;
+}
+.mdfbg-img img {
+	display: block;
+	max-width: 100%;
+}
+
+.mdfbp-img {
+	border: 2px solid #cda367;
+	height: 80px;
+	position: relative;
+	margin: 0 0.5rem;
+}
+.mdfbp-img img {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+.mdfbc-list {
+	padding: 0;
+	margin: 0;
+	color: #bebebe;
+}
+.mdfbc-list li {
+	list-style: none;
+	display: block;
+	padding: 0.125rem 0 0.125rem 1.75rem;
+	position: relative;
+	margin-bottom: 0.5rem;
+}
+.mdfbc-list li:last-child {
+	margin-bottom: 0;
+}
+.mdfbc-list li a {
+	color: #bebebe;
+}
+.mdfbc-list li::before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font: 1.25rem / normal "Material Icons";
+}
+.mdfbc-list li.ic-home::before {
+	content: "home";
+}
+.mdfbc-list li.ic-phone::before {
+	content: "phone";
+}
+.mdfbc-list li.ic-mail::before {
+	content: "mail_outline";
+}
+.mdfbc-list li.ic-website::before {
+	content: "public";
+}
+.mdfbc-list li.ic-location::before {
+	content: "location_on";
+}
+.acf-bottom {
+	color: #ffffff;
+	background: #121212;
+	padding: 1rem;
+	text-align: center;
+	position: relative;
+}
+.mdfbcp-btns {
+	display: flex;
+	position: absolute;
+	right: 0;
+	bottom: 4px;
+}
+.mdfbcp-btns .btn {
+	background: transparent;
+	border: 1px solid #cda367;
+	border-radius: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 32px;
+	height: 32px;
+	color: #cda367;
+	margin-left: 0.25rem;
+}
+.mdfbcp-btns .btn:focus {
+	outline: none;
+	display: block;
+}
+/* #endRegion footer style */
+
+/* #region package page style */
+.kh-banner {
+	height: 380px;
+	display: flex;
+	align-items: center;
+	background: #ccc no-repeat center;
+	background-size: cover;
+	padding-top: 84px;
+}
+.khb-in {
+	flex: 0 0 100%;
+	-ms-flex: 0 0 100%;
+	max-width: 100%;
+	color: #fff;
+}
+.khb-in h2 {
+	font: 700 4.375rem/1.2 "Poppins", sans-serif;
+	text-transform: uppercase;
+	margin: 0;
+}
+.khb-in .breadcrumb {
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	font: 1rem / normal "Poppins", sans-serif;
+	text-transform: capitalize;
+}
+.khb-in .breadcrumb a {
+	color: #ffffff;
+}
+.khb-in .breadcrumb li + li::before {
+	content: "/";
+	margin: 0 5px;
+}
+
+.khp-block {
+	padding: 2.75rem 0;
+}
+.khpb-head {
+	margin-bottom: 2.5rem;
+}
+.khpb-head h3 {
+	margin: 0;
+	font: 600 2.125rem/1.2 "Poppins", sans-serif;
+	text-transform: uppercase;
+}
+.khpc-rate {
+	display: inline-block;
+	width: 73px;
+	height: 15px;
+	background: url("../images/rating_bg.png");
+	position: relative;
+}
+.khpc-rate .khpcr-in {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url("../images/rating_main.png");
+}
+.khpc-bx {
+	display: flex;
+	background-color: #f2f2f2;
+	margin-bottom: 1rem;
+}
+.khpcb-img {
+	flex: 0 0 15.625rem;
+	-ms-flex: 0 0 15.625rem;
+	max-width: 15.625rem;
+	height: 13rem;
+}
+.khpcb-img a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.khpcb-img img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.khpcb-dtl {
+	flex-grow: 1;
+	padding: 0.75rem;
+	font-family: "Poppins", sans-serif;
+}
+.khpcb-ttl h5 {
+	margin: 0 0 0.75rem 0;
+	font: 700 1rem/1.2 "Poppins", sans-serif;
+	color: #f74949;
+}
+.khpcb-ttl h5 a{
+	color:#f74949;
+}
+.khpcb-desc p {
+	margin: 0 0 0.25rem 0;
+	color: #222;
+	line-height: 1.2;
+}
+.khpcb-desc .btn {
+	border-radius: 0;
+	padding: 0.25rem 1rem;
+	font-size: 0.875rem;
+	margin-top: 0.5rem;
+}
+.kmpc-list .row {
+	margin-left: -0.25rem;
+	margin-right: -0.25rem;
+}
+.kmpc-list .row [class*="col-"] {
+	padding-left: 0.25rem;
+	padding-right: 0.25rem;
+}
+/* #endRegion package page style */
+
+/* #region destinations page style */
+.kmdst-bx {
+	display: flex;
+	margin-bottom: 1rem;
+}
+.kmdstb-img {
+	flex: 0 0 18.75rem;
+	-ms-flex: 0 0 18.75rem;
+	max-width: 18.75rem;
+	height: 13.4375rem;
+}
+.kmdstb-img a {
+	width: 100%;
+	height: 100%;
+}
+.kmdstb-img img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.kmdst-dtl {
+	padding-left: 1rem;
+}
+.kmdstd-in {
+	font: 400 0.875rem/1.5 "Poppins", sans-serif;
+	text-align: justify;
+}
+.kmdst-dtl h5 {
+	font: 500 1.5rem/1 "Poppins", sans-serif;
+	text-transform:uppercase;
+}
+.kmdst-dtl h5 a {
+    color: rgb(33, 37, 41);
+}
+.kmdstd-in p {
+	margin-bottom: 0.5rem;
+}
+.kmdst-dtl .btn {
+	border-radius: 0;
+	font: 0.875rem/1.2 "Poppins", sans-serif;
+}
+
+.khpd-details .kmdstb-img {
+	float: left;
+	margin-right: 1rem;
+	max-width: 25rem;
+	height: 20rem;
+}
+.khpd-details .kmdst-bx {
+	display: block;
+}
+.khpd-details .kmdst-dtl {
+	padding-left: 0;
+}
+.khpd-details .kmdst-bx::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/* #endRegion destinations page style */
+
+/* #region Hotel page style */
+.kmhl-bx {
+	display: flex;
+	margin-bottom: 2rem;
+}
+.kmhlb-img {
+	display: flex;
+	align-items: center;
+	flex: 0 0 21.875rem;
+	-ms-flex: 0 0 21.875rem;
+	height: 18.75rem;
+	max-width: 21.875rem;
+}
+.kmhlb-img a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.kmhlb-img img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.kmhlb-dtls {
+	flex-grow: 1;
+	border: 1px solid #c3c1bc;
+	position: relative;
+	margin-left: 2px;
+	align-items: center;
+	display: flex;
+}
+.kmhlb-dtls::before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: -1px;
+	top: 20%;
+	bottom: 20%;
+	width: 1px;
+	z-index: 2;
+	background: #ffffff;
+}
+.kmhlb-dtls > h3 {
+	text-transform: uppercase;
+	font: 600 1.5rem/1.2 "Poppins", sans-serif;
+	color: #f74949;
+	background-color: #fff;
+	position: absolute;
+	right: 50px;
+	top: 0;
+	transform: translateY(-50%);
+	padding: 0 0.25rem;
+}
+.kmhlbd-in {
+	display: flex;
+	flex: 0 0 100%;
+	max-width: 100%;
+	font-family: "Poppins", sans-serif;
+}
+.kmhlbdi-left {
+	padding: 0.25rem 1.25rem;
+}
+.kmhll-top {
+	margin-bottom: 1rem;
+}
+.kmhll-top h5 {
+	font-size: 1rem;
+	margin: 0 0 0.5rem 0;
+}
+.kmhll-top h5 a {
+    color: rgb(33, 37, 41);
+}
+
+.kmhll-top p {
+	font-size: 0.8125rem;
+	color: #222;
+	margin: 0;
+	text-align: justify;
+}
+.kmhll-top p a {
+    color: #f74949;
+}
+.kmhl-facilities {
+	padding: 0;
+	margin: 0 0 1rem 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.kmhl-facilities li {
+	flex: 0 0 auto;
+	-ms-flex: 0 0 auto;
+	max-width: none;
+	list-style: none;
+	display: block;
+	padding-left: 1.125rem;
+	position: relative;
+	margin-right: 1rem;
+}
+.kmhl-facilities li::before {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 14px;
+	height: 14px;
+	background: #f74949;
+	color: #fff;
+	position: absolute;
+	left: 0;
+	top: 4px;
+	content: "check";
+	font-family: "Material Icons";
+	font-size: 0.875rem;
+}
+.kmhl-bottom {
+	font-size: 1rem;
+}
+.kmhl-bottom b {
+	font-weight: 600;
+}
+.kmhlbdi-right {
+	display: flex;
+	align-items: center;
+	border-left: 1px solid #bfbdb7;
+}
+.kmhlr-btns {
+	padding: 0 1.375rem;
+}
+.kmhlr-btns .btn {
+	border-radius: 0;
+	white-space: nowrap;
+	margin: 2rem 0;
+}
+/* #endRegion Hotel page style */
+
+/* #region Package Details */
+.khpbd-main {
+	display: flex;
+	margin-left: -0.5rem;
+	margin-right: -0.5rem;
+	margin-bottom: 2rem;
+}
+.khpbd-left,
+.khpbd-right {
+	flex: 0 0 50%;
+	max-width: 50%;
+	-ms-flex: 0 0 50%;
+	padding: 0 0.5rem;
+}
+.khpbd-left .owl-nav button.owl-prev,
+.khpbd-left .owl-nav button.owl-next {
+	position: absolute;
+	top: calc(50% - 25px);
+	display: flex;
+	justify-content: space-between;
+}
+.khpbd-left .owl-nav button.owl-prev {
+	left: 2rem;
+}
+.khpbd-left .owl-nav button.owl-next {
+	right: 2rem;
+}
+.kmpbdr-head {
+	position: relative;
+	padding-bottom: 1.25rem;
+	border-bottom: 1px solid #fdd1d1;
+	margin-bottom: 1rem;
+}
+.kmpbdr-head h3 {
+	font: 700 1.375rem/1.4 "Poppins", sans-serif;
+	color: #f74949;
+	margin: 0;
+}
+.kmpdrb-bx {
+	margin-bottom: 0.75rem;
+}
+.kmpdrb-bx h5 {
+	font: 600 1.125rem/1.2 "Poppins", sans-serif;
+	margin: 0 0 0.5rem 0;
+}
+.kmpdrb-bx p {
+	margin: 0 0 0.25rem 0;
+}
+.kmpbdr-ftr {
+	display: flex;
+	align-items: center;
+}
+.kmpbdrf-left {
+	flex-grow: 1;
+	font-family: "Poppins", sans-serif;
+}
+.kmpbdrf-left h5 {
+	font: 600 1.125rem/1.2 "Open Sans", sans-serif;
+	margin: 0 0 0.25rem 0;
+}
+.kmpbdrf-left p {
+	color: #f74949;
+	margin: 0;
+	font-size: 1.125rem;
+	font-weight: 700;
+	line-height: 1.2;
+}
+.kmpbdrf-right .btn {
+	border-radius: 0;
+	font: 700 1rem/1.2 "Poppins", sans-serif;
+	padding: 0.5rem 2rem;
+}
+.kmbdtb-block {
+	background: #f0f0f0;
+	padding: 1.5rem 0.75rem;
+	margin-bottom: 0.875rem;
+}
+.kmbdtb-head h4 {
+	font: 600 1.125rem/1.2 "Poppins", sans-serif;
+	margin: 0 0 1rem 0;
+}
+.kmbde-list {
+	font-size: 0.875rem;
+}
+.kmbde-list li {
+	padding-left: 0.5rem;
+	margin-bottom: 0.25rem;
+}
+.kmbde-list li:last-child {
+	padding-left: 0.5rem;
+	margin-bottom: 0.25rem;
+}
+.rp-0 {
+	margin-left: 0;
+	margin-right: 0;
+}
+.rp-0 [class*="col-"] {
+	padding-left: 0;
+	padding-right: 0;
+}
+.kmitn-list {
+	position: relative;
+}
+.kmitn-list::before {
+	content: "";
+	position: absolute;
+	left: 28px;
+	border-left: 6px dotted #959595;
+	top: 0;
+	bottom: 40px;
+}
+.kmitn-item {
+	position: relative;
+	padding-left: 4.375rem;
+	margin-bottom: 1rem;
+	min-height: 80px;
+}
+.kmitn-item::before {
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	background: #666666;
+	content: "";
+	top: -20px;
+	left: 23px;
+	display: block;
+	position: absolute;
+	z-index: 3;
+}
+.kmitn-item:first-child::before {
+	display: none;
+}
+.kmitn-item > span {
+	position: absolute;
+	left: 10px;
+	top: -8px;
+	font-weight: 600;
+	background: #f0f0f0;
+	padding: 0.5rem 0;
+}
+.kmitn-item p {
+	margin: 0;
+}
+.kmitn-list .kmitn-item:last-child {
+	min-height: 0;
+	margin-bottom: 0;
+}
+.kmatr-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -0.5rem;
+}
+.kmatr-bx {
+	margin:0.5rem;
+	flex: 0 0 calc(20% - 1rem);
+	-ms-flex: 0 0 calc(20% - 1rem);
+	max-width: calc(20% - 1rem);
+	background: #fbf7f7;
+	border: 1px solid #efefef;
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.05);
+	display: flex;
+	flex-direction: column;
+}
+.kmatr-img {
+	height: 10rem;
+}
+.kmatr-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.kmatr-ttl {
+	text-align: center;
+	font-size: 0.875rem;
+	padding: 0.5rem;
+	font-family: "Poppins",sans-serif;
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.kmatr-ttl a {
+	color: #000;
+}
+/* #endRegion Package Details End */
+
+/* #region Hotel Detail */
+.khp-carousel .slick-arrow {
+	background: transparent;
+	border: none;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.khp-carousel .slick-arrow.slick-prev {
+	left: 2rem;
+	z-index: 9;
+}
+.khp-carousel .slick-arrow.slick-next {
+	right: 2rem;
+	z-index: 9;
+}
+#hDetails_tCarousel .kmpd-img {
+	margin: 0 0.25rem;
+}
+#hDetails_tCarousel .slick-slide img {
+	max-width: 100%;
+	display: block;
+}
+#hDetails_tCarousel .slick-slide.slick-current img {
+	opacity: 0.6;
+}
+#hDetails_tCarousel .slick-slide {
+	background: #000;
+}
+#hDetails_Carousel {
+	margin-bottom: 1.125rem;
+}
+.kmpd-img img {
+    width: 100%;
+}
+.hin-details .kmpbdr-head h3 {
+	margin: 0 0 0.5rem 0;
+}
+.kmpbdr-head p {
+	margin: 0 0 0.5rem 0;
+	font: 600 1rem/1.2 "Poppins", sans-serif;
+}
+.hin-details .star-rating {
+	color: #f74949;
+}
+.kmpdh-high {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+}
+.kmpdh-high li {
+	margin-left: 2rem;
+}
+.kmpdh-high li:first-child {
+	margin-left: 16px;
+}
+.kmpdh-high li:last-child {
+	margin-left: 1rem;
+	list-style: none;
+}
+.kmpdh-high li:last-child a {
+	font: 700 0.875rem/1 "Poppins", sans-serif;
+	color: #f74949;
+}
+.hin-details .kmpdrb-bx {
+	margin-bottom: 1.5rem;
+}
+.kmpdc-bx {
+	position: relative;
+	padding-left: 2.75rem;
+}
+.kmpdcb-icon {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.kmpdcb-icon {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.kmpdc-bx p {
+	margin: 0;
+	color: #222222;
+}
+.kmpdcb-icon img {
+	max-width: 30px;
+	max-height: 30px;
+}
+
+.kmhdb-head {
+	margin-bottom: 1.875rem;
+}
+.kmhdb-head h3 {
+	font: 600 1.125rem/1.2 "Poppins", sans-serif;
+	margin: 0 0 0.5rem 0;
+	color: #222;
+}
+.kmhdb-head p {
+	font: 400 0.875rem/1.2 "Poppins", sans-serif;
+	color: #000;
+	margin: 0;
+}
+.kmhd-map {
+	height: 270px;
+	background: #cccccc;
+}
+.kmhdb-dtls .nav-tabs {
+	margin-bottom: 1.25rem;
+}
+.kmhdb-dtls .nav-tabs .nav-link {
+	background: #f74949;
+	color: #ffffff;
+	border-radius: 0;
+	border: none;
+	text-transform: uppercase;
+	font: 600 0.875rem/1.2 "Poppins", sans-serif;
+	padding: 0.75rem 1rem;
+}
+.kmhdb-dtls .nav-tabs .nav-link.active {
+	background: #555555;
+}
+.kmhd-btm {
+	margin-bottom: 3.25rem;
+}
+.kmrms-item {
+	display: flex;
+	padding: 1.25rem;
+	background: #e6e6e6;
+	margin-bottom: 0.5rem;
+}
+.kmrmsl-in {
+	border: 5px solid #f74949;
+	width: 150px;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #fff;
+}
+.kmrmsl-in img {
+	display: block;
+	width: 100%;
+}
+.kmrmsl-in p {
+	margin: 0 0 0.5rem 0;
+	text-transform: uppercase;
+	font: 600 1.125rem/1.2 "Poppins", sans-serif;
+	color: #f74949;
+}
+.kmrmsl-in span {
+	font: 1.125rem/1.2 "Poppins", sans-serif;
+}
+.kmrms-middle {
+	flex-grow: 1;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+.kmrmsm-head {
+	display: flex;
+	margin-bottom: 0.75rem;
+	align-items: center;
+}
+.kmrmsm-input .form-control {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	padding: 4px 28px 4px 28px;
+	font-size: 0.875rem;
+	height: auto;
+	border-radius: 0;
+	background: url("../images/icon_bedType.png") no-repeat left 5px center,
+		url("../images/icon_dropdown.png") no-repeat right 5px center;
+	background-size: 20px 18px, auto auto;
+	border-color: #ff7979;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	background-color: #fff;
+}
+.kmrmsm-input .form-control:focus {
+	box-shadow: none;
+}
+.kmrms-middle h5 {
+	font: 600 1.5rem/1.2 "Poppins", sans-serif;
+	margin: 0 1rem 0 0;
+	text-transform: uppercase;
+	color: #f74949;
+}
+.kmrms-middle h5 span {
+	color: #000;
+	font-weight: 400;
+}
+.kmrms-middle p {
+	font-size: 0.75rem;
+	line-height: 1.6;
+	margin: 0 0 0.5rem 0;
+}
+.kmrms-middle p a {
+	font-weight: 600;
+	color: #f74949;
+}
+.kmrms-person {
+	font-weight: 600;
+	margin: 0 0 1rem 0;
+	color: #555555;
+}
+.kmrms-person span {
+	padding-right: 2rem;
+	margin-left: 1rem;
+	position: relative;
+}
+.kmrms-person span::before {
+	content: "";
+	display: block;
+	position: absolute;
+	right: 0;
+	top: -5px;
+	font-family: "Material Icons";
+	font-size: 1.5rem;
+	color: #000;
+}
+.kmrms-person span.icon-adult::before {
+	content: "accessibility";
+}
+.kmrms-person span.icon-child::before {
+	content: "person";
+}
+.kmrms-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.kmrms-in {
+	white-space: nowrap;
+	text-align: center;
+}
+.kmrms-in p {
+	font: 600 1.625rem/1.2 "Poppins", sans-serif;
+	color: #f74949;
+	margin: 0 0 1rem 0;
+}
+.kmrms-in .btn {
+	font: 700 1rem/1.2 "Poppins", sans-serif;
+	border-radius: 0;
+	padding: 0.35rem 1.5rem;
+}
+.kmrch-head {
+	padding: 0.5rem 0 0.5rem 2.5rem;
+	position: relative;
+	margin: 0 0 0.5rem 0;
+}
+.kmrch-head span {
+	position: absolute;
+	width: 34px;
+	height: 34px;
+	left: 0;
+	top: 1px;
+	border: 1px solid #f74949;
+	border-radius: 34px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #f74949;
+}
+.kmrch-head h4 {
+	font: 600 1.125rem/1.2 "Poppins", sans-serif;
+	margin: 0;
+}
+.kmrch-item {
+	margin: 0 0 1.25rem 0;
+}
+.kmrch-content p {
+	margin: 0;
+}
+.kmhdbf-item {
+	margin: 0 0 1.5rem 0;
+}
+.kmhdbf-item h5 {
+	font: 600 1.125rem/1.2 "Poppins", sans-serif;
+	margin: 0 0 0.5rem 0;
+}
+.kmhd-desc {
+	font-size: 1rem;
+	line-height: 1.6;
+	text-align: justify;
+}
+.kmbde-list.kmhdpl > li {
+	margin-bottom: 1rem;
+}
+.kmbdes-bx {
+	padding: 1.5rem;
+	background: #e6e6e6;
+	display: flex;
+	margin-bottom: 0.5rem;
+}
+.kmbdesb-img {
+	flex: 0 0 215px;
+	-ms-flex: 0 0 215px;
+	max-width: 215px;
+}
+.kmbdesb-img img {
+	display: block;
+	max-width: 100%;
+}
+.kmbdesb-dtl {
+	flex-grow: 1;
+	padding-left: 1.5rem;
+}
+.kmbdesb-img img {
+	display: block;
+}
+.kmbdesb-dtl {
+	flex-grow: 1;
+	padding-left: 1.5rem;
+}
+.kmbdesb-dtl h4 {
+	margin: 0 0 0.5rem 0;
+	font: 600 1.4rem/1.2 "Poppins", sans-serif;
+	text-transform: uppercase;
+	color: #f74949;
+}
+.kmbdesb-dtl p {
+	margin: 0;
+	font-size: 0.8785rem;
+	line-height: 1.6;
+	color: #222222;
+}
+.kmbdes-price {
+	color: #f74949;
+	font-size: 0.875rem;
+	vertical-align: middle;
+	margin-top: 1rem;
+}
+.kmbdes-price span {
+	font-size: 1.5rem;
+	color: #000;
+	font-weight: 700;
+	vertical-align: middle;
+	margin-right: 0.5rem;
+}
+/* #endRegion Hotel Detail */
+
+/* #region Tender Details */
+.kmtn-link {
+	padding: 0;
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+}
+.kmtn-link li {
+	list-style: none;
+	display: block;
+	margin-bottom: 1rem;
+}
+.kmtn-link li a {
+	display: block;
+	text-align: center;
+	background: #f74949;
+	color: #fff;
+	padding: 0.35rem 1rem;
+}
+.kmtn-link li a:hover {
+	text-decoration: none;
+	background: #4b4b4b;
+}
+.kmtn-link li a.active {
+	background: #222222;
+}
+.kmtndr-item {
+	position: relative;
+	padding: 0 0 1rem 1.25rem;
+	border-bottom: 1px dotted #ddd;
+	margin-bottom: 1rem;
+	font: 400 0.875rem/1.2 "Poppins", sans-serif;
+}
+.kmtndr-item p {
+	margin-bottom: 0.5rem;
+}
+.kmtndr-item::before {
+	content: "";
+	display: block;
+	width: 8px;
+	height: 8px;
+	background: #f74949;
+	left: 0;
+	position: absolute;
+	top: 7px;
+	border-radius: 10px;
+}
+.kmtndr-item .btn {
+	border-radius: 0;
+	font: 0.875rem/1.2 "Poppins", sans-serif;
+	padding: 0.25rem 1.25rem;
+}
+/* #endRegion Tender Details */
+
+/* #region FAQ */
+.faq .card {
+	border-radius: 0;
+	margin-bottom: 0.5rem;
+	border: none;
+}
+.faq .card-header {
+	padding: 0;
+	border-bottom: 1px dotted #d7d7d7;
+}
+.faq .card-header h2 {
+	margin: 0;
+}
+.faq .card-header .btn {
+	font: 600 0.875rem/1.6 "Poppins", sans-serif;
+	display: block;
+	width: 100%;
+	text-align: left;
+	background: #eaeaea;
+	color: #000;
+	padding: 0.75rem 3rem 0.75rem 0.75rem;
+	border-radius: 0;
+}
+.faq .card-header .btn::after {
+	content: "remove";
+	display: block;
+	position: absolute;
+	font: 2rem/1.5 "Material Icons";
+	right: 0.5rem;
+	top: 0;
+	color: #f74949;
+}
+.faq .card-header .btn.collapsed::after {
+	content: "add";
+}
+.faq .card .card-header {
+	margin-bottom: 0;
+}
+.faq .card .card-body {
+	padding: 1rem;
+	background: #eaeaea;
+	color: #8b8b8b;
+	line-height: 1.5;
+}
+/* #endRegion FAQ */
+
+/* #region About */
+.kmab-block {
+	padding: 4rem 0;
+}
+.kmab-head {
+	text-align: center;
+	margin-bottom: 2.75rem;
+}
+.kmab-head h2 {
+	font: 700 3.125rem/1.2 "Poppins", sans-serif;
+	text-transform: uppercase;
+	margin: 0;
+}
+.kmab-content {
+	font-size: 1.375rem;
+	line-height: 1.5;
+	text-align: justify;
+}
+.bg-black {
+	background: #030705;
+	color: #fff;
+}
+.bg-pink {
+	background: #f74949;
+	color: #fff;
+}
+.kmab-block.bg-map {
+	background: #030705 url("../images/world_map.png") no-repeat center;
+}
+/* #endRegion About */
+
+/* #region Gallery */
+.kmg-block {
+	margin-bottom: 3rem;
+}
+.kmg-block h3 {
+	font: 500 1.5rem/1.2 "Poppins", sans-serif;
+	margin: 0 0 1rem 0;
+}
+.kmg-grid {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -0.5rem;
+}
+.kmg-bx {
+	flex: 0 0 25%;
+	-ms-flex: 0 0 25%;
+	max-width: 25%;
+	padding: 0.5rem;
+}
+.grid-video .kmgb-in {
+	position: relative;
+}
+.grid-video .kmgb-in::after {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6) url("../images/play_btn.png") no-repeat center;
+	z-index: 3;
+	content: "";
+	pointer-events: none;
+}
+.kmgb-in img {
+	max-width: 100%;
+	display: block;
+}
+/* #endRegion Gallery */
+
+/* #region Destination Detail */
+.khpd-details .kmdst-bx {
+	margin-bottom: 3rem;
+}
+/* #endRegion Destination Detail */
+
+/* #region Contact */
+.khpd-contact {
+	display: flex;
+	margin-bottom: 2rem;
+}
+.khpdco-left,
+.khpdco-right {
+	flex-grow: 1;
+	display: flex;
+}
+.khpdco-left {
+	justify-content: flex-end;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8d183f+0,dc3d46+100 */
+	background: rgb(141, 24, 63); /* Old browsers */
+	background: -moz-linear-gradient(
+		45deg,
+		rgba(141, 24, 63, 1) 0%,
+		rgba(220, 61, 70, 1) 100%
+	); /* FF3.6-15 */
+	background: -webkit-linear-gradient(
+		45deg,
+		rgba(141, 24, 63, 1) 0%,
+		rgba(220, 61, 70, 1) 100%
+	); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(
+		45deg,
+		rgba(141, 24, 63, 1) 0%,
+		rgba(220, 61, 70, 1) 100%
+	); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d183f', endColorstr='#dc3d46',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	color: #ffffff;
+	text-align: center;
+}
+.khpdco-right {
+	background: #e4e4e4;
+}
+.kmpdco-in {
+	width: calc(1110px / 2);
+}
+.khpdco-left .kmpdco-in {
+	padding: 4rem 1.5rem;
+}
+.khpdco-right .kmpdco-in {
+	padding: 4rem 0 4rem 2.625rem;
+}
+.kmpdcoi-head {
+	margin-bottom: 3rem;
+	font-family: "Poppins", sans-serif;
+}
+.kmpdcoi-head p {
+	font-size: 0.75rem;
+	font-style: italic;
+	font-weight: 600;
+	margin: 0;
+}
+.kmpdcoi-head h2 {
+	font-size: 3.5rem;
+	font-weight: 700;
+	margin: 1rem 0;
+}
+.kmpdcoi-head p {
+	font-size: 0.75rem;
+	font-style: italic;
+	font-weight: 600;
+	margin: 0;
+}
+.kmdpco-bdy {
+	font: 600 1.125rem/1.2 "Poppins", sans-serif;
+}
+.kmdpco-bdy p {
+	margin: 0 0 1rem 0;
+}
+.kmdpco-bdy p a {
+	color: #fff;
+}
+.kmdpco-bdy p:last-child {
+	margin: 0;
+}
+.kmdpco-ftr {
+	margin-top: 2rem;
+	font: 600 1rem "Poppins", sans-serif;
+	font-style: italic;
+}
+.kmdpco-ftr p {
+	margin: 0 0 0.5rem 0;
+}
+.kmdpco-ftr p:last-child {
+	margin: 0;
+}
+.kmpdcof-head {
+	margin-bottom: 3rem;
+}
+.kmpdcof-head h3 {
+	font-size: 1.875rem;
+	margin: 0;
+	position: relative;
+	padding: 0 0 0.5rem 0;
+	font-family: "Poppins", sans-serif;
+	text-transform: uppercase;
+}
+.kmpdcof-head h3::after {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 2px;
+	background: #f74949;
+	width: 88px;
+}
+.kmpdcof-content .form-control {
+	border-radius: 0;
+	background: transparent;
+	border-width: 0 0 1px 0;
+	padding-left: 0;
+	padding-right: 0;
+	font-size: 0.875rem;
+}
+.kmpdcof-content .form-control:focus {
+	outline: none;
+	box-shadow: none;
+	border-color: #f74949;
+}
+.kmpdcof-content .form-group {
+	margin-bottom: 2rem;
+}
+.kmpdcof-content .btn {
+	border-radius: 0;
+	font: 1.125rem "Poppins", sans-serif;
+	padding: 0.25rem 2rem;
+}
+.kmpbc-btm {
+	padding: 1.5625rem 0;
+}
+.kmpbcb-head {
+	display: flex;
+	margin-bottom: 2.5rem;
+}
+.kmpbcb-head h3 {
+	margin: 0;
+	font: 1.375rem "Poppins", sans-serif;
+	font-style: italic;
+	background: #e4e4e4;
+	padding: 0.25rem 1rem;
+}
+.kmpbcbc-grid {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -0.9375rem;
+}
+.kmpbcbg-bx {
+	flex: 0 0 33.33%;
+	-ms-flex: 0 0 33.33%;
+	max-width: 33.33%;
+	padding: 0 0.9375rem;
+}
+.kmpbcbgb-in {
+	background: #f1f1f1;
+	padding: 2rem 1.5rem;
+}
+.kmpbcbgb-in h5 {
+	font: 500 1.125rem/1.3 "Poppins", sans-serif;
+	color: #f74949;
+	margin: 0 0 1rem 0;
+}
+.kmpbcbdb-bdy {
+	font-family: "Poppins", sans-serif;
+}
+.kmpbcb-row {
+	display: flex;
+	margin-bottom: 0.25rem;
+}
+.kmpbcb-row span {
+	flex-grow: 1;
+	font-size: 0.75rem;
+}
+.kmpbcb-row span a {
+	color: #222;
+}
+.kmpbcb-row span:first-child {
+	flex: 0 0 90px;
+	max-width: 90px;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 0.875rem;
+}
+.kmpbcbdb-ftr {
+	font: 600 0.875rem "Poppins", sans-serif;
+	margin-top: 1rem;
+}
+.kmpbcbdb-ftr p {
+	margin: 0;
+}
+.kmpbcbgb-in h6 {
+	font: 600 1.125rem "Poppins", sans-serif;
+	text-transform: uppercase;
+	margin: 0 0 1rem 0;
+}
+.kmpbcbc-grid.kmcon-list {
+	margin: 0 -0.1875rem;
+}
+.kmpbcbc-grid.kmcon-list .kmpbcbg-bx {
+	padding-left: 0.1875rem;
+	padding-right: 0.1875rem;
+}
+.kmcon-list .kmpbcbgb-in {
+	padding: 1rem;
+}
+.kmcon-list .kmpbcbgb-in .table {
+	font-family: "Poppins", sans-serif;
+}
+.kmcon-list .table td,
+.kmcon-list .table th {
+	padding: 0.375rem;
+	border: none;
+}
+.kmcon-list .table thead th {
+	border-bottom: 1px solid rgba(105, 9, 27, 0.23);
+	padding: 0.375rem 0.375rem 0.75rem 0.375rem;
+	font-size: 1.125rem;
+	font-weight: 700;
+}
+.kmcon-list .table tbody tr:first-child td {
+	padding-top: 0.75rem;
+}
+.kmpbcbc-grid.kmcon-list .kmpbcbg-bx .kmpbcbgb-in {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8d183f+0,dc3d46+100 */
+	background: rgb(141, 24, 63); /* Old browsers */
+	background: -moz-linear-gradient(
+		45deg,
+		rgba(141, 24, 63, 1) 0%,
+		rgba(220, 61, 70, 1) 100%
+	); /* FF3.6-15 */
+	background: -webkit-linear-gradient(
+		45deg,
+		rgba(141, 24, 63, 1) 0%,
+		rgba(220, 61, 70, 1) 100%
+	); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(
+		45deg,
+		rgba(141, 24, 63, 1) 0%,
+		rgba(220, 61, 70, 1) 100%
+	); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d183f', endColorstr='#dc3d46',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	color: #ffffff;
+}
+.kmpbcbc-grid.kmcon-list .kmpbcbgb-in .table {
+	color: #ffffff;
+}
+.kmpbcbc-grid.kmcon-list .kmpbcbg-bx:nth-child(2n) .kmpbcbgb-in {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8a8a8a+0,949494+41,f5f5f5+100&0.86+0,0.43+41,1+100 */
+	background: -moz-linear-gradient(
+		45deg,
+		rgba(138, 138, 138, 0.86) 0%,
+		rgba(148, 148, 148, 0.43) 41%,
+		rgba(245, 245, 245, 1) 100%
+	); /* FF3.6-15 */
+	background: -webkit-linear-gradient(
+		45deg,
+		rgba(138, 138, 138, 0.86) 0%,
+		rgba(148, 148, 148, 0.43) 41%,
+		rgba(245, 245, 245, 1) 100%
+	); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(
+		45deg,
+		rgba(138, 138, 138, 0.86) 0%,
+		rgba(148, 148, 148, 0.43) 41%,
+		rgba(245, 245, 245, 1) 100%
+	); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db8a8a8a', endColorstr='#f5f5f5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.kmpbcbc-grid.kmcon-list .kmpbcbg-bx:nth-child(2n) .table {
+	color: #222222;
+}
+.kmpbdgl-list {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 1rem 0 0 0;
+	font-family: "Poppins", sans-serif;
+}
+.kmpbdgl-list > li {
+	list-style: none;
+	display: block;
+	flex: 0 0 auto;
+	-ms-flex: 0 0 auto;
+	margin-right: 1rem;
+	margin-bottom: 0.25rem;
+}
+.kmpbdgl-list > li span {
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-right: 0.5rem;
+}
+/* #endRegion Contact */
+
+/* #region Hotel Search */
+.kmpbfw-head {
+	display: flex;
+	justify-content: space-between;
+	font-family: "Poppins", sans-serif;
+	margin-bottom: 2.5rem;
+}
+.kmpbfwh-left-btn .btn {
+	border-radius: 0;
+	font-size: 0.875rem;
+	font-weight: 500;
+	padding: 0.25rem 1rem;
+}
+.kmpbfwh-steps ul {
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+.kmpbfwh-steps ul li {
+	list-style: none;
+	display: block;
+}
+.kmpbfwh-steps ul a {
+	background: #e6e6e6;
+	color: #b1b1b1;
+	display: block;
+	padding: 0.25rem 2.5rem;
+	position: relative;
+	transition: all 0.3s ease-in-out;
+}
+.kmpbfwh-steps ul a:hover {
+	text-decoration: none;
+}
+.kmpbfwh-steps ul a:hover {
+	color: #f74949;
+}
+.kmpbfwh-steps ul a.active {
+	background: #f74949;
+	color: #ffffff;
+}
+.kmpbfwh-steps ul a.active span {
+	background: #363636;
+	color: #ffffff;
+}
+.kmpbfwh-steps ul a::after {
+	content: "";
+	display: block;
+	top: 7px;
+	bottom: 7px;
+	right: 0;
+	width: 1px;
+	background: #b1b1b1;
+	position: absolute;
+}
+.kmpbfwh-steps ul a.active::after {
+	display: none;
+}
+.kmpbfwh-steps ul li:last-child a::after {
+	display: none;
+}
+.kmpbfwh-steps ul a span {
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #b1b1b1;
+	color: #fff;
+	font-size: 0.65rem;
+	position: absolute;
+	top: -10px;
+	left: 4px;
+}
+.kmpbfwh-steps ul a .material-icons {
+	font-size: 1rem;
+	vertical-align: middle;
+}
+.kmpb-hlist .kmrms-item {
+	padding: 0;
+}
+.kmpb-hlist .kmrms-left {
+	padding: 1rem;
+}
+.kmpb-hlist .kmrmsl-in {
+	border: none;
+	position: relative;
+	width: 200px;
+	height: 200px;
+}
+.kmpb-hlist .kmrms-middle {
+	padding: 1rem;
+}
+.kmpb-hlist .kmrms-right {
+	padding: 1.5rem;
+	background: #f74949;
+}
+.kmpb-hlist .kmrms-in p {
+	color: #fff;
+	margin: 0;
+}
+.kmpb-hlist .btn-pink {
+	background-color: #fff;
+	color: #f74949;
+}
+.kmpb-hlist .kmrms-in span {
+	display: block;
+	color: #fff;
+	font-size: 0.75rem;
+	margin: 0 0 1rem 0;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: "Poppins", sans-serif;
+}
+.kmpb-hlist .kmrmsl-in span {
+	position: absolute;
+	display: block;
+	bottom: 0.675rem;
+	left: auto;
+	right: auto;
+	background: rgba(247, 73, 73, 0.87);
+	color: #fff;
+	text-align: center;
+	font-size: 0.875rem;
+	font-weight: 600;
+	padding: 0.5rem 1.5rem;
+}
+.kmhlfb-link {
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+.kmhlfb-link li {
+	list-style: none;
+	flex-grow: 1;
+	padding: 0 1px;
+}
+.kmhlfb-link li a {
+	display: block;
+	text-align: center;
+	background: #f74949;
+	color: #fff;
+	padding: 0.375rem 1rem;
+	font-weight: 600;
+}
+.kmhlfb-link li a.active {
+	background: #b1b1b1;
+	color: #000000;
+}
+.kmhlfb-link li a:hover {
+	text-decoration: none;
+	color: #000;
+}
+.kmrms-middle .kmrch-head {
+	padding: 0 0 0 2.125rem;
+	position: relative;
+	margin: 0;
+}
+.kmrms-middle .kmrch-head span {
+	width: 26px;
+	height: 26px;
+	border-radius: 26px;
+}
+.kmrms-middle .kmrch-head span .material-icons {
+	font-size: 1.125rem;
+}
+.kmrms-middle .kmrch-head h4 {
+	font: 600 0.875rem/1.2 "Poppins", sans-serif;
+}
+.kmrms-middle .kmrch-content {
+	padding-left: 2.125rem;
+}
+.kmrms-middle .kmrch-item {
+	margin: 0 0 0.5rem 0;
+}
+.kmrms-middle .kmhdbf-item h5 {
+	color: #000;
+	font-size: 1rem;
+	margin-bottom: 0.25rem;
+}
+.kmrms-middle .kmhdbf-item {
+	margin: 0 0 1rem 0;
+}
+.kmrms-middle .kmhdbf-item .kmhl-facilities {
+	padding: 0;
+	margin: 0 0 0.5rem 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.kmrmsr-item {
+	margin-bottom: 0.5rem;
+}
+.kmrmsr-head {
+	display: flex;
+	align-items: center;
+	margin-bottom: 0.25rem;
+}
+.kmrmsh-img {
+	width: 32px;
+	height: 32px;
+	border-radius: 44px;
+	overflow: hidden;
+}
+.kmrmsh-img img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.kmrmsh-right {
+	flex-grow: 1;
+	padding-left: 0.5rem;
+}
+.kmrmsh-right h6 {
+	margin: 0 0 0.255rem 0;
+	font: 600 0.75rem/1 "Poppins", sans-serif;
+}
+.kmrmsh-right h6 a {
+	color: #000;
+}
+.kmrmsh-right .star-rating {
+	color: #f74949;
+	font-size: 0.65rem;
+}
+.kmrms-middle .kmrmsr-content p {
+	margin: 0;
+}
+.kmrms-attraction {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 1rem;
+}
+.kmrmsa-bx {
+	flex: 0 0 auto;
+	-ms-flex: 0 0 auto;
+	margin-right: 0.675rem;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	border: 1px solid #d2d2d2;
+}
+.kmrmsa-bx img {
+	max-width: 108px;
+	display: block;
+	max-height: 108px;
+}
+.kmpbfw-filter {
+	display: flex;
+	margin: 0 -0.25rem 2.5rem -0.25rem;
+	/* flex-wrap: wrap; */
+}
+.kmpbfwf-col {
+	flex-grow: 1;
+	padding: 0 0.25rem;
+	margin-bottom: 0.5rem;
+}
+.kmpbfwf-col.city {
+	max-width: 150px;
+}
+.kmpbfwf-col .form-control {
+	border-radius: 0;
+	border: 1px solid #f74949;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	font: 700 1rem/1.5 "Poppins", sans-serif;
+	color: #f74949;
+	text-transform: uppercase;
+	padding: 0.75rem 2rem 0.75rem 2.25rem;
+	height: auto;
+	background: url("../images/icon_search.png") no-repeat left 10px center,
+		url("../images/icon_dropdown_pink.png") no-repeat right 10px center;
+	background-color: #ffffff;
+}
+.kmpbfwf-col.city .form-control {
+	background: url("../images/icon_city.png") no-repeat left 10px center,
+		url("../images/icon_dropdown_pink.png") no-repeat right 10px center;
+	background-color: #ffffff;
+}
+.kmpbfwf-col .form-control option {
+	color: #000000;
+}
+.kmpbfwf-col .form-control:focus {
+	box-shadow: none;
+}
+.custom-field {
+	/* height: 52px;
+	border: 1px solid #f74949;
+	padding: 0.3rem 1.5rem 0.3rem 3rem; */
+	position: relative;
+	min-width: 165px;
+}
+.kmpbfwf-col .custom-field .form-control {
+	border-radius: 0;
+	border: 1px solid #f74949;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	font: 0.75rem/1.2 "Poppins", sans-serif;
+	color: #000000;
+	text-transform: capitalize;
+	padding: 1.375rem 2rem 0.3125rem 3rem;
+	height: 52px;
+	background: url("../images/icon_search.png") no-repeat left 10px center,
+		url("../images/icon_dropdown_pink.png") no-repeat right 10px center;
+	background-color: #ffffff;
+}
+.kmpbfwf-col.number {
+	max-width: 140px;
+}
+.kmpbfwf-col.btn {
+	flex-grow: 0;
+}
+.kmpbfwf-col .btn {
+	border-radius: 0;
+	display: flex;
+	align-items: center;
+	font-family: "Poppins";
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 1.25rem;
+	padding: 0.625rem 1rem;
+}
+.kmpbfwf-col .btn .material-icons {
+	font-size: 1.75rem;
+	line-height: 1.05;
+}
+.custom-field p {
+	font: 700 1rem/1.2 "Poppins", sans-serif;
+	margin: 0;
+	text-transform: uppercase;
+	position: absolute;
+	left: 3rem;
+	top: 0.5rem;
+}
+/* .custom-field span{
+	font:0.75rem/1.2 "Poppins",sans-serif;
+} */
+.custom-field.date-in .form-control {
+	background: url("../images/icon_check_in.png") no-repeat left 10px center,
+		url("../images/icon_dropdown.png") no-repeat right 5px center;
+	background-color: #ffffff;
+	background-size: 28px 28px, 18px 8px;
+}
+.custom-field.date-out .form-control {
+	background: url("../images/icon_check_out.png") no-repeat left 10px center,
+		url("../images/icon_dropdown.png") no-repeat right 5px center;
+	background-color: #ffffff;
+	background-size: 32px 28px, 18px 8px;
+}
+.custom-field.date-in .form-control,
+.custom-field.date-out .form-control {
+	/* min-width:210px; */
+	text-transform: lowercase;
+}
+.custom-field.bed .form-control {
+	background: url("../images/icon_bedType.png") no-repeat left 10px center,
+		url("../images/icon_dropdown.png") no-repeat right 5px center;
+	background-color: #ffffff;
+	background-size: 32px 28px, 18px 8px;
+	max-width: 130px;
+}
+.custom-field.room .form-control {
+	background: url("../images/icon_room.png") no-repeat left 10px center,
+		url("../images/icon_dropdown.png") no-repeat right 5px center;
+	background-color: #ffffff;
+	background-size: 31px 30px, 18px 8px;
+}
+.kmpbfwf-col-range {
+	display: flex;
+	margin: 0 -4px;
+}
+.kmpbfwfcr-col {
+	flex-grow: 1;
+	padding: 0 4px;
+}
+/* #endRegion Hotel Search */
+
+/* #region Hotel Search Extra Services */
+.kmpb-hlist .kmbdes-bx {
+	padding: 0;
+}
+.kmpb-hlist .kmbdesb-img {
+	padding: 1rem;
+}
+.kmpb-hlist .kmbdesb-dtl {
+	padding: 1rem 1rem 1rem 0;
+}
+.kmpb-hlist .kmbdes-bx .kmrms-in p {
+	margin: 0 0 2rem 0;
+}
+/* #endRegion Hotel Search Extra Services */
+
+/* #region Hotel Review */
+.kmpbfwh-review .card,
+.kmpbk-list .card {
+	border-radius: 0;
+	border: none;
+}
+.card.card-dark .card-header {
+	background: #363636;
+	color: #fff;
+	border-radius: 0;
+	font: 500 0.875rem/1.2 "Poppins", sans-serif;
+	text-transform: uppercase;
+}
+.card.card-dark .card-body {
+	background: #e6e6e6;
+}
+.kmpbfwh-review .card-body,
+.kmpbk-list .card-body {
+	padding: 0;
+}
+.kmpbfhr-bx {
+	padding: 1rem;
+}
+.kmpbfhr-bx h4 {
+	font: 600 0.875rem/1.2 "Poppins", sans-serif;
+	color: #363636;
+	margin: 0 0 0.5rem 0;
+}
+.review-row {
+	display: flex;
+	padding: 0.5rem 0;
+}
+.review-label {
+	font: 600 0.75rem/1.3 "Poppins", sans-serif;
+	color: #363636;
+	flex: 0 0 100px;
+}
+.review-col {
+	font: 0.75rem/1.3 "Poppins", sans-erif;
+}
+.kmpbfwhr-block {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #b1b1b1;
+}
+.kmpbfhrb-content .table {
+	font: 0.75rem/1.3 "Poppins", sans-serif;
+}
+.kmpbfhrb-content .table td,
+.kmpbfhrb-content .table th {
+	border: none;
+	padding: 0.375rem 0;
+}
+.kmpbfhrb-content .table tfoot td {
+	font-size: 0.875rem;
+	font-weight: 600;
+	border-bottom: 1px solid #b1b1b1;
+}
+.kmpbfhrb-content .table tfoot tr:last-child td {
+	border-bottom: none;
+}
+.kmpbfhrb-content .table tbody tr:last-child td {
+	padding-bottom: 1.5rem;
+}
+.kmpbfhrb-content .table thead tr:first-child th {
+	border-top: 1px solid #b1b1b1;
+}
+.kmpbfhrb-content .form-check {
+	font-family: "Poppins", sans-serif;
+}
+.kmpbfhrb-content .form-check a {
+	color: #f74949;
+}
+.kmpbfhr-bx .btn {
+	border-radius: 0;
+	font: 600 1rem/1.2 "Poppins", sans-serif;
+	padding: 0.25rem 1.5rem;
+}
+/* #endRegion Hotel Review */
+
+/* #region Travellers */
+.kmtra-bx {
+	padding: 1rem;
+	background: #fff;
+	border-bottom: 1px solid #b1b1b1;
+}
+.kmtra-bx h4 {
+	margin: 0 0 1rem 0;
+	font: 600 0.875rem "Poppins", sans-serif;
+}
+.kmtrab-form {
+	margin: 1rem 0;
+}
+.kmtrab-form .form-group {
+	margin-bottom: 1.5rem;
+}
+.kmtrab-form .form-control {
+	border-radius: 0;
+	font: 300 0.75rem "Poppins", sans-serif;
+	color: #636161;
+	border-width: 0 0 01px 0;
+	background-color: transparent;
+	margin: 0 0.5rem;
+	padding-left: 0;
+	padding-right: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+.kmtrab-form .form-control:focus {
+	box-shadow: none;
+	border-color: #f74949;
+}
+.kmtrab-form select.form-control {
+	padding-right: 1rem;
+	background: url("../images/icon_dropdown_pink.png") no-repeat right 0 center;
+}
+.kmtrap-options h5 {
+	font: 600 0.875rem "Poppins", sans-serif;
+	color: #363636;
+	margin: 0 0 0.5rem 0;
+	padding-bottom: 0.5rem;
+	border-bottom: 1px solid #cccccc;
+}
+.kmtrap-options .form-check {
+	font: 300 0.75rem "Poppins", sans-serif;
+}
+/* #endRegion Travellers */
+
+/* #region Confirmation */
+.kmhb-confirm {
+	font: 0.875rem/1.75 "Poppins", sans-serif;
+	color: #363636;
+}
+.kmhb-confirm p {
+	margin: 0 0 0.5rem 0;
+}
+.kmpbfwh-confirm .form-check {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 0.875rem;
+}
+/* #endRegion Confirmation */
+
+/* #region login page */
+.kmpl-head {
+	text-align: left;
+	font-family: "Poppins", sans-serif;
+	border-bottom: 1px solid #9d2336;
+	padding-bottom: 0.75rem;
+}
+.kmpl-head h3 {
+	margin: 0;
+	font-weight: 400;
+	font-size: 2rem;
+}
+.kmpl-head p {
+	margin: 0;
+	font-size: 1rem;
+}
+.kmpl-content {
+	border-top: 1px solid #c34459;
+	text-align: left;
+	padding: 2rem 0;
+}
+.kmplcf-in {
+	display: flex;
+	flex-wrap: wrap;
+	font-family: "Poppins", sans-serif;
+	margin: 0 -0.25rem;
+}
+.kmplcf-in .form-group {
+	padding: 0 0.25rem;
+	margin-bottom: 1.5rem;
+}
+.kmplcf-in .form-group label {
+	font-size: 0.75rem;
+	margin: 0 0 0.25rem 0;
+}
+.kmplcf-in .form-control {
+	border-radius: 2px;
+	background: transparent;
+	font-size: 0.875rem;
+	border: 1px solid #d06374;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	color: #fff;
+}
+.kmplcf-in select.form-control {
+	padding-right: 1rem;
+	background: url("../images/dropdown_select.png") no-repeat right 5px center;
+}
+.kmplcf-in select.form-control option {
+	color: #000000;
+}
+.kmplc-btn {
+	text-align: right;
+	font-family: "Poppins", sans-serif;
+	margin-bottom: 1rem;
+}
+.kmplc-btn .btn {
+	border-radius: 2px;
+	display: inline-flex;
+	padding: 0.4rem 1.5rem;
+}
+.kmplc-btn p {
+	font-size: 0.675rem;
+	margin: 0.5rem 0 0 0;
+}
+.kmplc-bottom {
+	font-family: "Poppins", sans-serif;
+}
+.kmplc-bottom p {
+	font-size: 0.75rem;
+	margin: 0;
+}
+.kmplc-bottom p a {
+	color: #f74949;
+	font-weight: 600;
+}
+.kmlm-container .kmpdco-in {
+	padding-left: 1.25rem;
+}
+.khpdco-right .kmpl-head {
+	border-bottom-color: #cccccc;
+	padding-bottom: 1.5rem;
+	padding-top: 1rem;
+}
+.khpdco-right .kmpl-head h3 {
+	text-transform: uppercase;
+	font-size: 1.75rem;
+}
+.khpdco-right .kmpl-content {
+	border-top: none;
+}
+.kml-main {
+	display: flex;
+	margin: 0 -1.5rem;
+}
+.kmlm-left,
+.kmlm-right {
+	flex: 0 0 50%;
+	max-width: 50%;
+	padding: 0 1.5rem;
+}
+.kmlm-right {
+	border-left: 1px solid #6f6f6f;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.kmlm-left .input-group > .form-control {
+	border-radius: 0;
+	background: transparent;
+	border-color: transparent transparent #ccc transparent;
+	font-size: 0.875rem;
+}
+.kmlm-left .input-group > .form-control:focus {
+	box-shadow: none;
+}
+.kmlm-left .input-group-text {
+	border-radius: 0;
+	color: #a1a1a1;
+	background: transparent;
+	padding: 0.125rem 0;
+	border-color: transparent transparent #ccc transparent;
+}
+.kmlm-left .input-group-text .material-icons {
+	font-size: 1.5rem;
+}
+.kmlm-left .btn {
+	text-transform: uppercase;
+	font-weight: 600;
+	border-radius: 0;
+	padding: 0.25rem 1.5rem;
+	font-family: "Poppins", sans-serif;
+}
+.kmlm-right p {
+	font: 700 1rem "Poppins", sans-serif;
+	color: #f74949;
+	text-transform: uppercase;
+	margin: 0;
+}
+.khpdco-right .kmpl-content {
+	border-bottom: 1px solid #ccc;
+}
+.kmpl-guide {
+	margin-top: 2rem;
+}
+.kmpl-guide h5 {
+	font-weight: 700;
+	margin: 0 0 1rem 0;
+	font-family: "Poppins", sans-serif;
+	font-size: 1rem;
+	color: #f74949;
+}
+.kmpl-guide ol {
+	font-family: "Poppins", sans-serif;
+	font-size: 0.675rem;
+	padding-left: 1rem;
+	color: #717171;
+}
+.kmpl-guide ol li {
+	margin-bottom: 0.25rem;
+}
+/* #endRegion login page */
+
+/* #region After Login */
+.kmprlb-head {
+	background: #f74949;
+	padding: 1rem;
+	color: #fff;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-size: 1rem;
+	display: flex;
+	justify-content: space-between;
+}
+.kmprlb-head a {
+	color: #fff;
+}
+.kmprlb-content {
+	padding: 1rem;
+	min-height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.kmprlb-in {
+	min-width: 300px;
+}
+.kmprlb-in .btn {
+	border-radius: 0;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 1rem 0;
+}
+/* #endRegion After Login */
+
+/* #region Booking List */
+.kmpbk-list .kmpbfwh-steps ul a {
+	background: #f74949;
+	color: #ffffff;
+	border-width: 0 1px;
+	border-style: solid;
+	border-color: #e6e6e6;
+}
+.kmpbk-list .kmpbfwh-steps ul a::after {
+	display: none;
+}
+.kmpbk-list .kmpbfwh-steps ul a.active {
+	background: #e6e6e6;
+	color: #363636;
+}
+.kmpbk-list .kmprlb-head {
+	margin: 0 0 2rem 0;
+	padding: 0.25rem 1rem;
+}
+.kmpbks-form {
+	font-family: "Poppins", sans-serif;
+}
+.kmbksf-row {
+	display: flex;
+	margin: 0 -0.5rem;
+}
+.kmbksf-row .form-group {
+	display: flex;
+	align-items: center;
+	padding: 0 0.5rem;
+	margin: 0;
+}
+.kmbksf-row .form-group .label-outer {
+	flex: 0 0 140px;
+	-ms-flex: 0 0 140px;
+	max-width: 140px;
+	margin: 0;
+	font-size: 0.75rem;
+	font-weight: 600;
+	color: #363636;
+}
+.kmbksf-row .form-group .label-outer label {
+	display: block;
+	margin: 0;
+	width: 100%;
+	min-width: 140px;
+}
+.kmbksf-row .form-group .form-control {
+	font-size: 0.75rem;
+	border-radius: 0;
+	padding: 0 0.75rem;
+	-webkit-appearance: none;
+	width: 150px;
+}
+.kmpbk-list .kmpbfhr-bx h4 {
+	margin: 0 0 2rem 0;
+}
+.kmbksf-row {
+	display: flex;
+	margin: 0 -0.5rem;
+	padding: 0.25rem 0;
+}
+.kmbksf-divider {
+	text-transform: uppercase;
+	font-weight: 600;
+	text-align: center;
+	max-width: 430px;
+	color: #363636;
+	font-size: 0.75rem;
+}
+.bk-table {
+	font: 0.875rem "Poppins", sans-serif;
+	margin-top: 1rem;
+}
+.bk-table .table {
+	border-radius: 0;
+	margin: 0;
+}
+.bk-table .table-bordered td,
+.bk-table .table-bordered th {
+	padding: 0.375rem 1rem;
+}
+.bk-table .table thead th {
+	background: #363636;
+	color: #fff;
+	font-weight: 600;
+}
+.bk-table .table td {
+	background: #ffffff;
+	border-color: #ffffff;
+	font-weight: 500;
+	color: #363636;
+}
+.bk-table .table tbody tr:nth-child(even) td {
+	background: #e6e6e6;
+}
+.link-pink {
+	color: #f74949;
+	font-weight: 700;
+}
+.link-pink:hover {
+	color: #f74949;
+}
+/* #endRegion Booking List */
+
+/* #region Reports */
+.kmpbksf-report .kmbksf-row .form-group select.form-control {
+	width: 230px;
+}
+/* #endRegion Reports */
+
+/* #region Statement */
+.modal-header {
+	padding: 0.5rem 1rem;
+	font-family: "Poppins", sans-serif;
+	background: #363636;
+	color: #fff;
+	border-radius: 0;
+}
+.modal-title {
+	font-size: 1.125rem;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.modal-header .close {
+	color: #fff;
+	opacity: 1;
+}
+.modal-content {
+	border-radius: 0;
+}
+.modal-body .review-label {
+	flex: 0 0 190px;
+}
+.modal .form-control {
+    border-radius: 0;
+}
+
+/* #endRegion Statement */
+
+/* #region Modal */
+.modal-body, .modal-footer {
+	font-family: "Poppins", sans-serif;
+}
+.modal-footer .btn{
+	border-radius: 0;
+}
+.remain_ticket, .tot_per_price, .tot_per_price_child {
+    margin: 0 0 0.25rem 0;
+    padding: 0.25rem 0.75rem;
+    border: 1px solid #cfcfcf;
+    background: #ddd;
+}
+/* #endRegion Modal */
+
+.kmhb-vCarousel .owl-dots {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 0.5rem;
+}
+.kmhb-vCarousel button.owl-dot {
+	width: 14px;
+	height: 14px;
+	border-radius: 14px;
+	background: #323232;
+	margin: 0 0.08rem;
+}
+.kmhb-vCarousel button.owl-dot.active {
+	background: #f74949;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (max-width:1280px){
+	.khw-left .border-box{
+		margin-left:0;
+	}
+}
+@media screen and (max-width: 1199px) {
+	.navbar a img {
+		display: block;
+		max-width: 180px;
+	}
+	.vh-head .navbar-nav .nav-link{
+		padding: 0.25rem 0.5rem;
+	}
+	.vh-head .navbar-nav .nav-item {
+		margin-right: 0.5rem;
+	}
+	.khw-left, .khw-right{
+		padding: 3rem 1.5rem;
+	}
+	.khw-left .khw-in {
+		width: calc((960px / 2) - 2.5rem);
+	}
+	.border-box {
+		min-height: 470px;
+	}
+	.border-box.b-left {
+		border-left: 14px solid #fff;
+	}
+	.border-box.b-bottom {
+		border-bottom: 14px solid #fff;
+	}
+	.border-box.b-left::before, .border-box.b-right::before {
+		border-top: 14px solid #fff;
+	}
+	.border-box.b-left::after, .border-box.b-right::after {
+		border-right: 14px solid #ffffff;
+	}
+	.khw-txt h1 {
+		font-size:2.25rem;
+		margin: 0 0 1rem 0;
+	}
+	.border-box h3 {
+		font-size:5.5rem;
+	}
+	.khw-txt p {
+		font-size: 1.125rem;
+		text-align:justify;
+		padding-left: 0;
+	}
+	.cc-in h2{
+		font-size:3rem;
+	}
+	.kmh-video-frame{
+		height:452px;
+	}
+	.km-spackage{
+		margin-top:0;
+	}
+	
+	/* #region About */
+	.kh-banner{
+		height:300px;
+	}
+	.khb-in h2{
+		font-size:3.5rem;
+	}
+	.kmab-content {
+		font-size: 1.125rem;
+		text-align: justify;
+	}
+	.kmhlb-img {
+		flex: 0 0 15.625rem;
+		-ms-flex: 0 0 15.625rem;
+		height: 16.375rem;
+		max-width: 15.625rem;
+	}
+	.kmhll-top p {
+		font-size: 0.75rem;
+		text-align: justify;
+	}
+	.kmhl-facilities, .kmhl-bottom{
+		font-size:0.75rem;
+	}
+	.kmpdrb-bx p {
+		font-family: "Poppins",sans-serif;
+		font-size: 0.75rem;
+		text-align: justify;
+	}
+	.kmbdtb-content {
+		text-align: justify;
+	}
+	/* #endRegion About */
+	
+	
+	/* #region Package List */
+	.khpcb-img{
+		flex:0 0 13rem;
+		-ms-flex:0 0 13rem;
+		max-width:13rem;
+		height:14rem;
+	}
+	/* #endRegion Package List */
+	
+	
+	/* #region Contact */
+	.kmpdco-in {
+		width: calc(930px / 2);
+	}
+	.khpdco-left .kmpdco-in {
+		padding: 3rem 1rem 3rem 0;
+	}
+	.khpdco-right .kmpdco-in {
+		padding: 3rem 0 3rem 1rem;
+	}
+	.kmpdcoi-head h2{
+		font-size:3rem;
+	}
+	.kmpbcbgb-in {
+		padding: 1.5rem 1rem;
+		height: 100%;
+	}
+	/* #endRegion Contact */
+}
+
+@media screen and (max-width: 991px) {
+	.kmc-nav {
+		bottom: 1rem;
+	}
+	.navbar-toggler {
+		background: #f74949;
+		border-radius: 0.125rem;
+		padding: 0 0.25rem;
+	}
+	.navbar-toggler-icon{
+		width:auto;
+		height:auto;
+	}
+	.navbar-toggler-icon::before {
+		content: "menu";
+		font: 1.75rem/normal "Material Icons";
+		color: #ffffff;
+	}
+	.vh-head .navbar-collapse {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		z-index: 9;
+		background: rgba(255, 255, 255, 0.9);
+	}
+	.navbar-nav {
+		padding: 0.5rem 0;
+	}
+	.vh-head .navbar-nav .nav-link {
+		padding: 0.5rem 1rem;
+		color:#000000;
+	}
+	.mdf-bx {
+		flex: 0 0 33.33%;
+		-ms-flex: 0 0 33.33%;
+		max-width: 33.33%;
+		padding: 0 0.5rem;
+	}
+	.mdfb-head > h3 {
+		font-size: 1.125rem;
+	}
+	.mdfb-link ul a {
+		font-size: 0.75rem;
+	}
+	.mdfb-contact h4 {
+		margin: 0 0 0.5rem 0;
+		font-size: 1rem;
+	}
+	.mdfb-contact address {
+		font-size: 0.75rem;
+	}
+	.mdfb-contact address {
+		font-size: 0.75rem;
+		margin: 0 0 0.5rem 0;
+	}
+	.mdfb-contact p {
+		font-size: 0.75rem;
+	}
+	.mdfb-newsletter p {
+		font-size: 0.75rem;
+	}
+	
+	.khw-left, .khw-right {
+		padding: 2rem 1rem;
+	}
+	.khw-left .khw-in {
+		width: calc((690px / 2) - 1rem);
+	}
+	.khw-right .khw-in {
+		width: calc((690px / 2) - 1rem);
+	}
+	.border-box {
+		min-height: 300px;
+	}
+	.border-box h3 {
+		font-size: 3.5rem;
+	}
+	.khw-txt h1 {
+		font-size: 1.5rem;
+	}
+	.khw-txt p {
+		font-size: 0.75rem;
+	}
+	.kmhb-head h2{
+		font-size:2.5rem;
+	}
+	.kmh-video-frame {
+		height: 300px;
+	}
+	.kmhb-vCarousel {
+		margin-bottom: 2rem;
+	}
+	.widget{
+		margin-bottom:1rem;
+		height:calc(100% - 1rem);
+	}
+	.widget.faq-widget, .widget.ebook-widget {
+		height: 400px;
+		margin-bottom: 0px;
+	}
+	.km-booking-form{
+		background: rgb(30, 30, 30);
+		position: static;
+	}
+	.kmbf-in .form-group, .kmbf-in .btn {
+		margin-bottom: 0.5rem;
+	}
+	.khb-in h2 {
+		font-size: 3rem;
+	}
+	.kmab-block {
+		padding: 3rem 0;
+	}
+	.kmab-head {
+		margin-bottom: 1.75rem;
+	}
+	.kmab-head h2 {
+		font-size: 2.5rem;
+	}
+	.kmab-content {
+		font-size: 1rem;
+	}
+	
+	
+	
+	/* #region Hotel List Page */
+	.kmhlb-img{
+		height:21.875rem;
+		
+	}
+	.kmhlbd-in {
+		flex-wrap: wrap;
+	}
+	.kmhlbdi-left {
+		padding: 0.5rem 0.75rem;
+	}
+	.kmhll-top, .kmhl-facilities {
+		margin-bottom: 0.5rem;
+	}
+	.kmhl-bottom p{
+		margin-bottom:0;
+	}
+	.kmhlbdi-right {
+		border-top: 1px solid #bfbdb7;
+		border-left: none;
+		justify-content: center;
+		flex-grow: 1;
+	}
+	.kmhlr-btns {
+		padding: 0.5rem 0.5rem;
+		display: flex;
+		gap: 0.5rem;
+	}
+	.kmhlr-btns .btn{
+		margin:0;
+	}
+	/* #endRegion Hotel List Page */
+	
+	
+	/* #region Package List */
+	.khpcb-img {
+		flex: 0 0 16rem;
+		-ms-flex: 0 0 16rem;
+		max-width: 16rem;
+		height: 12rem;
+	}
+	/* #endRegion Package List */
+	
+	/* #region Contact */
+	.kmpdco-in {
+		width: calc(690px / 2);
+	}
+	.kmpdcoi-head{
+		margin-bottom:2rem;
+	}
+	.kmpdcoi-head h2 {
+		font-size: 2.5rem;
+	}
+	.kmpbcbc-grid{
+		margin: 0 -0.1875rem;
+	}
+	.kmpbcbg-bx {
+		flex: 0 0 50%;
+		-ms-flex: 0 0 50%;
+		max-width: 50%;
+		padding: 0 0.1875rem;
+		margin: 0.1875rem 0;
+	}
+	/* #endRegion Contact */
+}
+
+@media screen and (max-width: 767px) {
+	.mdf-in {
+		flex-wrap: wrap;
+	}
+	.mdf-bx {
+		flex: 0 0 100%;
+		-ms-flex: 0 0 100%;
+		max-width: 100%;
+		padding: 0 0.5rem;
+		margin-bottom: 3rem;
+	}
+	.mdfb-link ul a,
+	.mdfb-contact address,
+	.mdfb-contact p,
+	.mdfb-newsletter p {
+		font-size: 1rem;
+	}
+	.mdfb-contact h4 {
+		font-size: 1.25rem;
+	}
+	
+	.kmhb-head h2 {
+		font-size: 2rem;
+	}
+	.kmh-block {
+		padding: 2rem 0;
+		margin-bottom:0;
+	}
+	.km-spackage{
+		margin-bottom:0;
+	}
+	.kmhb-head {
+		margin-bottom: 2rem;
+	}
+	.kmbf-in [type="number"].form-control {
+		max-width: none;
+	}
+	.g4-12 .khpdg-bx {
+		flex: 0 0 50%;
+		-ms-flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.ww-in {
+		padding: 3rem 0.5rem 0.5rem 0.5rem;
+	}
+	.widget.weather-widget, .widget.faq-widget, .widget.ebook-widget{
+		height:350px;
+	}
+	.kh-widget .row {
+		margin-left: -0.5rem;
+		margin-right: -0.5rem;
+	}
+	.kh-widget [class*="col-"] {
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+	}
+	.khw-left .khw-in,
+	.khw-right .khw-in	{
+		width: calc((540px / 2) - 1.5rem);
+	}
+	.border-box.b-left, .border-box.b-bottom {
+		border-width:8px;
+	}
+	.border-box.b-left::before, .border-box.b-right::before {
+		border-top-width: 8px;
+	}
+	.border-box.b-left::after, .border-box.b-right::after {
+		border-right-width: 8px;
+	}
+	.khw-left .border-box{
+		padding-left:2rem;
+	}
+	.border-box h3 {
+		font-size: 3rem;
+	}
+	
+	
+	.kh-banner{
+		padding-top:4rem;
+	}
+	.khb-in h2 {
+		font-size: 2.5rem;
+	}
+	/* #region Hotel List */
+	.kmhl-bx {
+		flex-wrap: wrap;
+	}
+	.kmhlb-img {
+		height: 13rem;
+		flex: 0 0 100%;
+		-ms-flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.kmhlb-dtls::before{
+		background:transparent;
+	}
+	/* #endRegion Hotel List */
+	
+	/* #region Package List */
+	.khpcb-img {
+		flex: 0 0 14.5rem;
+		-ms-flex: 0 0 14.5rem;
+		max-width: 14.5rem;
+		height: 14.5rem;
+	}
+	/* #endRegion Package List */
+	
+	
+	/* #region Destinations List */
+	.kmdst-bx {
+		display: block;
+		margin-bottom: 2rem;
+	}
+	.kmdstb-img {
+		flex: 0 0 100%;
+		-ms-flex: 0 0 100%;
+		max-width: 100%;
+		height: 11rem;
+		margin-bottom: 0.75rem;
+	}
+	.kmdst-dtl {
+		padding-left: 0;
+	}
+	/* #endRegion Destinations List */
+	
+	/* #region Contact */
+	.kmpdco-in {
+		width: calc(510px / 2);
+	}
+	.khpdco-left .kmpdco-in {
+		padding: 2rem 1rem 2rem 0;
+	}
+	.khpdco-right .kmpdco-in {
+		padding: 2rem 0 2rem 1rem;
+	}
+	.kmpdcoi-head {
+		margin-bottom: 1rem;
+	}
+	.kmpdcoi-head h2 {
+		font-size: 1.75rem;
+		margin: 0.5rem 0;
+	}
+	.kmdpco-bdy {
+		font-size:0.875rem;
+	}
+	.kmdpco-ftr {
+		margin-top: 1rem;
+		font-size:0.875rem;
+	}
+	.kmpdcof-head {
+		margin-bottom: 2rem;
+	}
+	.kmpdcof-content .form-group {
+		margin-bottom: 1rem;
+	}	
+	.kmpbcb-head h3{
+		font-size:1.25rem;
+	}
+	.gMap {
+		height: 200px;
+	}
+	/* #endRegion Contact */
+}
+
+@media screen and (max-width: 575px) {
+	.mdfb-link ul a,
+	.mdfb-contact address,
+	.mdfb-contact p,
+	.mdfb-newsletter p {
+		font-size: 0.875rem;
+	}
+	.mdf-bx {
+		flex: 0 0 100%;
+		-ms-flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.mdf-bx:last-child{
+		margin-bottom:0;
+	}
+	.cc-in h2 {
+		font-size: 1.25rem;
+		margin-bottom: 1rem;
+	}
+	.cc-in .btn {
+		font-weight:600;
+		font-size:0.75rem;
+		line-height:1.2;
+		padding: 0.25rem 0.5rem;
+	}
+	.carousel-item {
+		height: 250px;
+	}
+	.carousel-item img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	.kmc-nav img {
+		max-height: 20px;
+		opacity: 1;
+		filter: drop-shadow(0 0 6px #000);
+	}
+	.khw-row{
+		flex-wrap:wrap;
+	}
+	.khw-left, .khw-right{
+		flex:0 0 100%;
+		-ms-flex:0 0 100%;
+		max-width:100%;
+		padding:1rem;
+	}
+	.khw-left .khw-in, .khw-right .khw-in {
+		width: 100%;
+	}
+	.border-box {
+		min-height: 250px;
+	}
+	.khw-txt h1 {
+		font-size: 2rem;
+	}
+	.khw-txt p {
+		font-size: 0.875rem;
+	}
+	.kmhb-head h2 {
+		font-size: 1.5rem;
+	}
+	.khpgdb-overlay {
+		padding: 0.5rem;
+		transform: translateY(calc(100% - 35px));
+	}
+	.khpdg-bx:hover .khpgdb-overlay {
+		opacity: 1;
+		transform: translateY(0);
+	}
+	.khpgdb-overlay h5, .stpi-top{
+		font-size:1rem;
+		margin-bottom:0;
+		font-weight:600;
+		text-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+		line-height:normal;
+	}
+	.kmhb-head h2 {
+		font-size: 1.25rem;
+	}
+	.kmhb-head h2::after{
+		height:3px;
+	}
+	.khpgdb-overlay p {
+		font-size: 0.75rem;
+		margin-bottom: 0.5rem;
+	}
+	.khpgdb-overlay .btn {
+		font-size: 0.65rem;
+		padding: 0.125rem 0.75rem;
+		display: block;
+		margin-bottom: 0.125rem;
+	}
+	.kmh-video-frame {
+		height: 230px;
+	}
+	.kh-bHotels .khpdg-bx .khpdgb-in {
+		padding-top: 100%;
+	}
+	.kh-bHotels .khpgdb-overlay h5 {
+		font-size: 1rem;
+		line-height: normal;
+	}
+	.kh-bHotels .khpgdb-overlay p {
+		margin-bottom: 0.50rem;
+		line-height: 1.2;
+	}
+	.widget.tender-widget{
+		height:350px;
+	}
+	.widget.weather-widget, .widget.faq-widget, .widget.ebook-widget {
+		height: 350px;
+		margin-bottom: 1rem;
+	}
+	.kmsp-head h2{
+		font-size:1.25rem;
+	}
+
+	
+	
+	.kh-banner{
+		height:250px;
+	}
+	
+	/* #region About */
+	.khb-in h2 {
+		font-size: 2rem;
+	}
+	.kmab-head h2 {
+		font-size: 1.75rem;
+	}
+	/* #endRegion About */
+	
+	
+	/* #region Hotel List */
+	.kmhlb-img {
+		height: 11rem;
+	}
+	.kmhlr-btns .btn {
+		font-size: 0.875rem;
+	}
+	.kmhlb-dtls > h3{
+		transform:none;
+		position:static;
+		padding:0 0.75rem;
+		font-size:1.25rem;
+	}
+	.kmhlb-dtls{
+		display:block;
+		padding:1rem 0 0 0;
+		margin-left:0;
+	}
+	/* #endRegion Hotel List */
+	
+	
+	/* #region Package List */
+	.khpc-bx {
+		display:block;
+	}
+	.khpcb-img {
+		flex: 0 0 100%;
+		-ms-flex: 0 0 100%;
+		max-width: 100%;
+		height: 12rem;
+	}
+	/* #endRegion Package List */
+	
+	/* #region Contact */
+	.khpd-contact {
+		flex-wrap: wrap;
+	}
+	.khpdco-left, .khpdco-right {
+		display: flex;
+		flex:0 0 100%;
+		-ms-flex:0 0 100%;
+		max-width:100%;
+	}
+	.khpdco-left .kmpdco-in,
+	.khpdco-right .kmpdco-in	{
+		padding:2rem 1rem;
+	}
+	.kmpdco-in {
+		width: 100%;
+	}
+	.kmpbcbg-bx {
+		flex: 0 0 100%;
+		-ms-flex: 0 0 100%;
+		max-width: 100%;
+		padding: 0 0.1875rem;
+		margin: 0.1875rem 0;
+	}
+	.kmpbcbgb-in{
+		padding:1rem;
+	}
+	.kmpbcb-head {
+		margin-bottom: 1.5rem;
+	}
+	.kmpbcb-head h3 {
+		font-size: 1rem;
+	}
+	/* #endRegion Contact */
+}
+
